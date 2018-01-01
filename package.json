@@ -1,6 +1,6 @@
 {
   "name": "ioreq",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make requests to services via Redis",
   "main": "src/index.js",
   "directories": {
