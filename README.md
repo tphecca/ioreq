@@ -13,7 +13,7 @@ async function hello() {
   let redis = new Redis({host: "127.0.0.1"});
   let ioreq = new IOReq(redis, {prefix: "test:"});
   // Second argument is optional. As of now, the only option is prefix.
-  // In this case, all PUBLISH channels are prefixed with "hello:".
+  // In this case, all PUBLISH channels are prefixed with "test:".
 
   // Listen for a few requests:
   const listener = await ioreq.listen('my_endpoint');
