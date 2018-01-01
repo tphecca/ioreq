@@ -1,0 +1,28 @@
+{
+  "name": "ioreq",
+  "version": "0.0.1",
+  "description": "Make requests to services on Redis",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "redis",
+    "ioredis",
+    "rpc",
+    "microservice"
+  ],
+  "author": "tphecca",
+  "license": "Unlicense",
+  "dependencies": {
+    "msgpack5": "^4.0.0",
+    "nanoid": "^1.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "ioredis": "^3.2.2"
+  }
+}
