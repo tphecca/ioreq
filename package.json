@@ -1,7 +1,7 @@
 {
   "name": "ioreq",
   "version": "0.0.1",
-  "description": "Make requests to services on Redis",
+  "description": "Make requests to services via Redis",
   "main": "src/index.js",
   "directories": {
     "test": "test"
@@ -17,6 +17,7 @@
   ],
   "author": "tphecca",
   "license": "Unlicense",
+  "repository": "https://github.com/tphecca/ioreq",
   "dependencies": {
     "msgpack5": "^4.0.0",
     "nanoid": "^1.0.1"
